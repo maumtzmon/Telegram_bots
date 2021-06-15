@@ -1,3 +1,18 @@
+########################################################################
+#
+# Plantilla de funciones basicas adicionales del bot de Telegram
+# Ing. Mauricio Martinez Montero
+# LabDet, Criogenia. Instituto de Ciencias Nucleares, UNAM.
+#
+# Pequeña plantilla que contiene funciones de analisis y procesos
+# en ella podemos programar lo que sea y devolver el resultado en 
+# formato string para desplegarla como un mensaje en la interfaz de 
+# Telegram
+#
+#
+########################################################################
+
+
 import pandas as pd
 import numpy as np
 
