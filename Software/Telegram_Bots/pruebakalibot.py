@@ -15,8 +15,8 @@
 
 # Librerias basicas de Telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackQueryHandler
-from telegram import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext.messagehandler import MessageHandler
+from telegram import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 # Librerias para uso de recursos de sistema
 import logging, os, signal, time
@@ -144,7 +144,7 @@ def Text(update,context):
 
 if __name__ == '__main__':
 
-    
+
     updater = Updater(Token_Telegram, use_context=True)
     dispatcher = updater.dispatcher
 
